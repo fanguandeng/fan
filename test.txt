@@ -1,6 +1,5 @@
 <?php
 echo 11;
-echo 222;
 
 echo 4444;
 
