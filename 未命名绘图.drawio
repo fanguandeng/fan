@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T03:17:04.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="xOSMjTmoVRG7KhcpjSmm" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T03:36:52.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Xx6yyPwjGzYhOZpZ11je" version="15.5.9" type="github">
   <diagram id="YUgpCqgbgq5mijMRGzla" name="第 1 页">
-    <mxGraphModel dx="1414" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JTHi2xGZQW8xrlHGtvwv-12" value="2、多选家具" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-12" value="2、多选家具&lt;br&gt;（出现一个）" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="810" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JTHi2xGZQW8xrlHGtvwv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JTHi2xGZQW8xrlHGtvwv-15">
@@ -75,8 +75,8 @@
         <mxCell id="JTHi2xGZQW8xrlHGtvwv-15" value="3、去除家具、面积" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="170" y="700" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JTHi2xGZQW8xrlHGtvwv-26" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;按匹配到家具数量排序&lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;(匹配度来自户型匹配度)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="495" y="1070" width="175" height="60" as="geometry" />
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-26" value="&lt;b style=&quot;font-size: 14px&quot;&gt;按匹配到家具数量排序&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;(匹配度来自&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;户型匹配度&lt;/font&gt;&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="1080" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JTHi2xGZQW8xrlHGtvwv-29" value="在线设计匹规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#FF0000;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="290" y="350" width="130" height="20" as="geometry" />
@@ -95,6 +95,42 @@
         </mxCell>
         <mxCell id="JTHi2xGZQW8xrlHGtvwv-34" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="570" y="1020" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-35" value="匹配度计算：户型匹配度&lt;b&gt;高到底&lt;/b&gt;的值重新赋值给家具数量&lt;b&gt;多到少&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1150" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF3333;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="JTHi2xGZQW8xrlHGtvwv-36" target="JTHi2xGZQW8xrlHGtvwv-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-36" value="结果1：&lt;br&gt;户型匹配度：80%&lt;br&gt;家具数量：4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1181" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF3333;" edge="1" parent="1" source="JTHi2xGZQW8xrlHGtvwv-37" target="JTHi2xGZQW8xrlHGtvwv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-37" value="结果2：&lt;br&gt;户型匹配度：90%&lt;br&gt;家具数量：3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1290" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF3333;" edge="1" parent="1" source="JTHi2xGZQW8xrlHGtvwv-38" target="JTHi2xGZQW8xrlHGtvwv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-38" value="结果3：&lt;br&gt;户型匹配度：96%&lt;br&gt;家具数量：0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1410" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-39" value="结果1：&lt;br&gt;户型匹配度：96%&lt;br&gt;家具数量：4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1181" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-40" value="结果2：&lt;br&gt;户型匹配度：90%&lt;br&gt;家具数量：3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1290" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-41" value="结果3：&lt;br&gt;户型匹配度：80%&lt;br&gt;家具数量：0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1410" width="180" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-46" value="最终结果" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1499" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JTHi2xGZQW8xrlHGtvwv-47" value="初始结果" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1499" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
